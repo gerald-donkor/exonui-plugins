@@ -1,0 +1,8 @@
+description = "Sync Figma tokens and Storybook docs with shadcn/ui components and prepare a PR review."
+prompt = """
+Run the ExonUI **Design-System Team** workflow for scope: {{args}}
+
+1. Pull Figma variables and component specs (`get_variable_defs`, `get_design_context`), normalize tokens via `design_utils` (`tokens_convert`), and check WCAG 2.2 AA contrast.
+2. Align component APIs with `shadcn` (`library_docs`) and update `storybook` stories.
+3. Prepare a PR diff and summary via `github` (Grid policy prompts before `write`/`destructive` calls) and save a `relay_checkpoint`.
+"""

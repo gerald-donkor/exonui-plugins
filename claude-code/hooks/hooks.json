@@ -1,0 +1,25 @@
+{
+  "description": "ExonUI local Relay hooks: auto-checkpoint workspace state on Stop and PreCompact into .exonui/relay/.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y exonui@latest relay hook stop"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y exonui@latest relay hook pre-compact"
+          }
+        ]
+      }
+    ]
+  }
+}

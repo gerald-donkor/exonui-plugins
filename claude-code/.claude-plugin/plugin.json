@@ -1,0 +1,25 @@
+{
+  "name": "exonui",
+  "version": "0.1.0-alpha",
+  "description": "ExonUI Grid MCP gateway, local Relay Stop/PreCompact hooks, workflow commands, and 11 design-engineering skills.",
+  "author": {
+    "name": "ExonUI",
+    "url": "https://app.exonui.workers.dev"
+  },
+  "homepage": "https://app.exonui.workers.dev/grid",
+  "repository": "https://github.com/gerald-donkor/exonui-plugins",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "mcp",
+    "grid",
+    "relay",
+    "figma",
+    "paper",
+    "penpot",
+    "shadcn",
+    "motion",
+    "accessibility"
+  ]
+}

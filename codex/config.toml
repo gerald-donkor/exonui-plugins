@@ -1,0 +1,6 @@
+# ExonUI Grid MCP server for OpenAI Codex
+# Place in ~/.codex/config.toml (global) or .codex/config.toml (trusted project).
+
+[mcp_servers.exonui]
+command = "npx"
+args = ["-y", "exonui@latest", "grid"]

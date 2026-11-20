@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "exonui": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "exonui@latest",
+        "grid"
+      ]
+    }
+  }
+}

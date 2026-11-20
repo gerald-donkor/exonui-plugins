@@ -1,0 +1,16 @@
+{
+  "name": "exonui",
+  "version": "0.1.0-alpha",
+  "description": "ExonUI Grid MCP gateway, cross-agent Relay handoffs, workflow commands, and 11 design-engineering skills for Gemini CLI.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "exonui": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "exonui@latest",
+        "grid"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+description = "Audit a built UI across breakpoints, contrast, keyboard navigation, and shadcn/ui patterns."
+prompt = """
+Run the ExonUI **Review and QA** workflow for target: {{args}}
+
+1. Inspect the built UI with `playwright` at desktop (1280px) and mobile (360px) in light and dark themes.
+2. Check WCAG 2.2 AA contrast (`design_utils` `contrast`), semantic landmarks, heading hierarchy, visible focus rings, and all loading/empty/error states.
+3. Cross-check component usage against `library_docs` (`shadcn`) and save findings in a `relay_checkpoint`.
+"""

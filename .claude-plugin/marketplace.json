@@ -1,0 +1,39 @@
+{
+  "name": "exonui",
+  "owner": {
+    "name": "ExonUI",
+    "url": "https://app.exonui.workers.dev"
+  },
+  "metadata": {
+    "description": "Official ExonUI plugin marketplace: Grid MCP progressive gateway, cross-agent Relay handoffs, and 11 design-engineering skills.",
+    "version": "0.1.0-alpha"
+  },
+  "plugins": [
+    {
+      "name": "exonui",
+      "source": "./claude-code",
+      "description": "Connect Claude Code to ExonUI Grid (16 meta-tools for Paper, Figma Desktop, Penpot, Storybook, Playwright, shadcn/ui registries, Grid Notes, fonts, icons, and design utils), local Relay Stop/PreCompact checkpoints, and 11 design-engineering skills.",
+      "version": "0.1.0-alpha",
+      "author": {
+        "name": "ExonUI",
+        "url": "https://app.exonui.workers.dev"
+      },
+      "homepage": "https://app.exonui.workers.dev/grid",
+      "license": "MIT",
+      "category": "design",
+      "keywords": [
+        "design",
+        "ui",
+        "mcp",
+        "grid",
+        "relay",
+        "figma",
+        "paper",
+        "penpot",
+        "shadcn",
+        "motion",
+        "accessibility"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+description = "Turn a Penpot design into shadcn/ui components, Storybook stories, and verified browser output."
+prompt = """
+Run the ExonUI **Penpot to Code** workflow for target: {{args}}
+
+1. Confirm `penpot` (`localhost:4401/mcp`) is connected via `grid_status`, then inspect Penpot frames and tokens via `grid_search` -> `grid_describe` -> `grid_call`.
+2. Read `library_docs` for `shadcn`, retrieve components with `component_get`, and normalize tokens with `design_utils`.
+3. Document stories in `storybook`, verify dark mode and keyboard focus in `playwright`, and save a `relay_checkpoint`.
+"""

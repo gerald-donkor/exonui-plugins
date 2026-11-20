@@ -1,0 +1,8 @@
+description = "Build a motion-rich site using Lenis, GSAP, Motion, shadcn/ui, and strict reduced-motion checks."
+prompt = """
+Run the ExonUI **Motion-Rich Site** workflow for target: {{args}}
+
+1. Read `library_docs` for `lenis`, `gsap`, and `motion` first so ScrollTrigger + Lenis ticker sync, `useGSAP()` cleanup, `gsap.matchMedia()`, and GSAP's licence boundaries stay intact.
+2. Validate spring/easing curves via `design_utils` (`easing`) and restrict animations to `transform` and `opacity`.
+3. Verify `prefers-reduced-motion: reduce`, visible pause controls on loops > 5s, zero hidden content without JS, and CLS <= 0.02 in `playwright`, then save a `relay_checkpoint`.
+"""

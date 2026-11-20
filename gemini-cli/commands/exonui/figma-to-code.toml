@@ -1,0 +1,8 @@
+description = "Translate a Figma frame and variables into shadcn/ui components and Tailwind tokens."
+prompt = """
+Run the ExonUI **Figma to Code** workflow for target: {{args}}
+
+1. Inspect the Figma frame and variables (`get_design_context`, `get_variable_defs`, `get_screenshot`) via `figma-desktop` (`grid_call`) or direct `figma-remote`.
+2. Read `library_docs` for `shadcn` and convert variables into CSS / Tailwind v4 `@theme` tokens via `design_utils` (`tokens_convert`).
+3. Implement accessible, responsive React components covering every UI state, check contrast (`design_utils`), verify in `playwright`, and save a `relay_checkpoint`.
+"""

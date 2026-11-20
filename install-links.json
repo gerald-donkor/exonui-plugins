@@ -1,0 +1,104 @@
+{
+  "serverName": "exonui",
+  "command": "npx",
+  "args": [
+    "-y",
+    "exonui@latest",
+    "grid"
+  ],
+  "cursor": {
+    "deeplink": "cursor://anysphere.cursor-deeplink/mcp/install?name=exonui&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImV4b251aUBsYXRlc3QiLCJncmlkIl19",
+    "configPath": ".cursor/mcp.json",
+    "config": {
+      "mcpServers": {
+        "exonui": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "exonui@latest",
+            "grid"
+          ]
+        }
+      }
+    }
+  },
+  "vscode": {
+    "deeplink": "vscode:mcp/install?%7B%22name%22%3A%22exonui%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22exonui%40latest%22%2C%22grid%22%5D%7D",
+    "insidersDeeplink": "vscode-insiders:mcp/install?%7B%22name%22%3A%22exonui%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22exonui%40latest%22%2C%22grid%22%5D%7D",
+    "cliCommand": "code --add-mcp '{\"name\":\"exonui\",\"type\":\"stdio\",\"command\":\"npx\",\"args\":[\"-y\",\"exonui@latest\",\"grid\"]}'",
+    "configPath": ".vscode/mcp.json",
+    "config": {
+      "servers": {
+        "exonui": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "exonui@latest",
+            "grid"
+          ]
+        }
+      }
+    }
+  },
+  "claudeCode": {
+    "marketplaceAddLocalCommand": "claude plugin marketplace add ./plugins",
+    "pluginInstallCommand": "claude plugin install exonui@exonui",
+    "mcpAddCommand": "claude mcp add exonui -- npx -y exonui@latest grid",
+    "configPath": ".mcp.json",
+    "config": {
+      "mcpServers": {
+        "exonui": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "exonui@latest",
+            "grid"
+          ]
+        }
+      }
+    }
+  },
+  "geminiCli": {
+    "extensionLinkCommand": "gemini extensions link ./plugins/gemini-cli",
+    "mcpAddCommand": "gemini mcp add exonui npx -- -y exonui@latest grid",
+    "configPath": ".gemini/settings.json",
+    "config": {
+      "mcpServers": {
+        "exonui": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "exonui@latest",
+            "grid"
+          ]
+        }
+      }
+    }
+  },
+  "codex": {
+    "mcpAddCommand": "codex mcp add exonui -- npx -y exonui@latest grid",
+    "configPath": "~/.codex/config.toml",
+    "toml": "[mcp_servers.exonui]\ncommand = \"npx\"\nargs = [\"-y\", \"exonui@latest\", \"grid\"]\n"
+  },
+  "opencode": {
+    "mcpAddCommand": "opencode mcp add exonui -- npx -y exonui@latest grid",
+    "configPath": "opencode.json",
+    "config": {
+      "$schema": "https://opencode.ai/config.json",
+      "mcp": {
+        "exonui": {
+          "type": "local",
+          "command": [
+            "npx",
+            "-y",
+            "exonui@latest",
+            "grid"
+          ],
+          "enabled": true
+        }
+      }
+    }
+  }
+}
